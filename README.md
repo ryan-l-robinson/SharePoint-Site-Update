@@ -1,4 +1,4 @@
-# SharePoint-Site-Update
+# SharePoint Site Script and Design Update
 This PowerShell script demonstrates some simple handling of updating SharePoint site scripts and site designs. With this script (adjusted to your needs), it is much easier to simply update the site script file, then run the PowerShell script again.
 
 To customize for your use:
