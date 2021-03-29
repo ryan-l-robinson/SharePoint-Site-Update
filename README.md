@@ -8,5 +8,5 @@ You should review the whole code and understand what it is doing, but here are s
 
 ## Next Update
 My goal for the next update is to add some further demonstrations of more complicated scenarios like if you have a site design that incorporates multiple scripts, e.g.:
-ProjectType1 uses scripts Project + script Project1
+ProjectType1 uses scripts Project + script Project1;
 ProjectType2 uses scripts Project + script Project2
