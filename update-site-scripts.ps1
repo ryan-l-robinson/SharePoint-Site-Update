@@ -34,3 +34,5 @@ if (($design_test = Get-SPOSiteDesign | Where-Object 'Title' -eq 'Project').coun
 else {
     Add-SPOSiteDesign -Title 'Project' -SiteScripts $script_id -Description $description
 }
+
+#Next addition: demo of combining the same script into multiple designs, e.g. projects1, projects2
