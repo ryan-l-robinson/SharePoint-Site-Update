@@ -1,5 +1,7 @@
 # SharePoint Site Script and Design Update
-This PowerShell script demonstrates some simple handling of updating SharePoint site scripts and site designs. With this script, it is much easier to simply update the site script file, then run the PowerShell script again.
+This PowerShell script demonstrates some simple handling of updating SharePoint site scripts and site designs. With this script (adapted to your needs), it is much easier to simply update the site script file(s), then run the PowerShell script again. 
+
+The desired structure for this desire is to get to two site designs, one for project type 1 and one for project type 2. They share some characteristics, captured in one site script. They differ on other characteristics. In other words, Project Type 1 is the Project (general) script plus the Project 1 script, while Project Type 2 is the Project (general) script plus the Project 2 script. The purpose of including this structure is to demonstrate how you can efficiently stack shared scripts across designs as well as the syntax for having multiple scripts in one design.
 
 ## Customizing
 You should review the whole code and understand what it is doing, but here are some hints of what you would need to change to prepare it for your own scenario:
@@ -14,8 +16,3 @@ This script was designed for a site design workflow scenario like this:
 3. Run the PowerShell script to update everything to your SharePoint
 4. Test applying the design to a site in SharePoint if needed.
 5. Repeat for next site script change if needed.
-
-## Next Update
-My goal for the next update is to add some further demonstrations of more complicated scenarios like if you have a site design that incorporates multiple scripts, e.g.:
-ProjectType1 uses scripts Project + script Project1;
-ProjectType2 uses scripts Project + script Project2
