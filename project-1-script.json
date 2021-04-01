@@ -1,0 +1,11 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/site-design-script-actions.schema.json",
+    "actions": [
+      {
+        "verb": "addNavLink",
+        "displayName": "Project Type 1",
+        "url": ""
+      }
+    ],
+    "version": 1
+  }
